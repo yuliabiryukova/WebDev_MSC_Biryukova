@@ -1,0 +1,19 @@
+div footer {
+	color:blue; background: red;
+}
+
+nav, h2 {
+	color: green;
+}
+
+.second {
+	color:blue;
+}
+
+#section2 {
+	color:pink;
+}
+
+main .firstSection {
+	color:grey;
+}
