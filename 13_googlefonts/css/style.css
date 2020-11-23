@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+.heading h1 {
+	font-size: 50px;
+	font-weight: normal;
+	font-style: italic;
+	font-family: 'Roboto Mono', sans-serif;
+	
+}
+
+.paragraph p {
+	font-family: 'Roboto Slab', serif;
+}
+
+.paragraph-two p {
+	font-family: 'Jura', sans-serif;
+
+}
