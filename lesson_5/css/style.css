@@ -1,0 +1,61 @@
+@import url(reset.css);
+
+header, footer {
+
+	height: 60px;
+	width: 1440px;
+	background-color: #FE1A19;
+}
+
+h1 {
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    color: white; 
+    line-height: 60px;
+    margin-left: 20px;
+
+}
+
+
+.first, .second, .third {
+    
+    width: 400px;
+    height: 800px;
+	border: 5px solid #E5E000;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: inline-block;
+    vertical-align: top; 
+    padding: 30px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.receipe, h3 {
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left;
+    
+}
+
+h2 {
+
+	font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    padding-bottom: 20px;
+
+}
+
+p {
+
+	padding-bottom: 20px;
+}
