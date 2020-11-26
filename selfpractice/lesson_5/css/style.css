@@ -18,6 +18,13 @@ h1 {
 
 }
 
+.main-content {
+
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 
 .first, .second, .third {
     
@@ -30,7 +37,6 @@ h1 {
     vertical-align: top; 
     padding: 30px;
     margin: 10px 10px 10px 10px;
-    text-align: center;
 
 }
 
@@ -56,7 +62,7 @@ h2 {
 
 }
 
-p {
+.list {
 
 	padding-bottom: 20px;
 }
