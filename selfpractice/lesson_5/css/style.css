@@ -11,19 +11,29 @@ html {
     font-size: 10px;
 }
 
+body {
+
+    font-family: Times New Roman;
+    font-size: 2rem;
+    line-height: 6rem;
+    color: #000000;
+
+}
+
+
 :root {
 --main-bg-color: #FE1A19; 
 
 }
 
-header, footer {
+.header {
 
 	height: 6rem;
 	/*width: 1440px;*/
 	background-color: var(--main-bg-color);
 }
 
-h1 {
+.header-text {
 
     font-family: Helvetica;
     font-style: normal;
@@ -31,6 +41,7 @@ h1 {
     color: white; 
     line-height: 6rem;
     margin-left: 2rem;
+    font: inherit;
 
 }
 
@@ -76,9 +87,31 @@ h2 {
     line-height: 2rem;
     padding-bottom: 2rem;
 
+
 }
 
 .list {
 
 	padding-bottom: 2rem;
+    list-style-type: none;
+}
+
+.footer  {
+
+    height: 6rem;
+    background-color: var(--main-bg-color);
+
+}
+
+.footer-text {
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white; 
+    line-height: 6rem;
+    margin-left: 2rem;
+    font: inherit;
+
 }
